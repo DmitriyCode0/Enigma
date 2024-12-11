@@ -1,0 +1,171 @@
+/* Tab Container Styling */
+.tab-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+/* Typography */
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/* Tab Styling */
+.tab {
+    padding: 10px 20px;
+    background-color: #eaf3ff;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #004080;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #cce4ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab.active {
+    background-color: #004080;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Add animations for content appearance */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+
+
+/* Content Styling */
+.content {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeIn 0.4s ease;
+}
+
+/* Table Container Styling */
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto; /* 4 rows for all tenses */
+    gap: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.table-section {
+    background: linear-gradient(145deg, #f9f9f9, #ffffff);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+.table-section:hover {
+    transform: scale(1.02);
+}
+
+
+.highlight {
+    font-weight: bold;
+    color: #d9534f;
+    background: linear-gradient(90deg, rgba(255, 221, 221, 0.8), rgba(255, 245, 245, 0.8));
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+
+.highlight2 {
+    color: #3f83c6; /* Light blue */
+    font-style: italic;
+    font-weight: normal; /* Not bold */
+}
+
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* better phone exp */
+@media (max-width: 768px) {
+    .table-container {
+        grid-template-columns: 1fr; /* Stacks cards vertically */
+    }
+
+    .tab {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+
+/* Home Button Styles */
+.home-button {
+    position: fixed; /* Keeps it always visible in the top-left corner */
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensures it stays above other elements */
+    padding: 10px 20px;
+    background-color: #004080; /* Primary color */
+    color: white;
+    text-decoration: none; /* Removes underline */
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #80bfff; /* Secondary hover color */
+}

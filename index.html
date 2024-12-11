@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Learning Resource</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My English Learning Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="#" data-target="resources">Resources</a></li>
+          <li><a href="#" data-target="mind-maps">Mind Maps</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Resources -->
+      <section id="resources">
+        <h2>Learning Resources</h2>
+        <div class="resource-tiles">
+          <div class="tile" data-level="A1">A1</div>
+          <div class="tile" data-level="A2">A2</div>
+          <div class="tile" data-level="B1">B1</div>
+          <div class="tile" data-level="B2">B2</div>
+          <div class="tile" data-level="C1">C1</div>
+          <div class="tile" data-level="other">Other</div>
+        </div>
+        <!-- Dropdown Lists -->
+        <div class="dropdown-container">
+          <div class="dropdown" id="A1">
+            <h3>A1 Grammar Topics</h3>
+            <ul>
+              <li>Present Simple</li>
+              <li>Past Simple</li>
+              <li>Basic Vocabulary</li>
+            </ul>
+          </div>
+          <!-- A2 Grammar Topics -->
+          <div class="dropdown" id="A2">
+            <h3>A2 Grammar Topics</h3>
+            <ul>
+              <li>
+                <a href="articles/present-continuous.html" target="_self"
+                  >Present Continuous</a
+                >
+              </li>
+              <li>
+                <a href="articles/future-simple.html" target="_self"
+                  >Future Simple</a
+                >
+              </li>
+              <li>
+                <a href="articles/modal-verbs.html" target="_self"
+                  >Modal Verbs (can, must)</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="dropdown" id="B1">
+            <h3>B1 Grammar Topics</h3>
+            <ul>
+              <li>
+                <a href="/articles/D3-timeline.html" target="_self"
+                  >Interactive Timeline with D3</a
+                >
+              </li>
+              <li>Conditionals (Type 1)</li>
+              <li>Passive Voice</li>
+            </ul>
+          </div>
+          <!-- B2 Grammar Topics -->
+          <div class="dropdown" id="B2">
+            <h3>B2 Grammar Topics</h3>
+            <ul>
+              <li>
+                <a href="/articles/2-and-3-conditionals.html" target="_self"
+                  >Як зрозуміти 2 та 3 conditionals</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/articles/Would-rather-&-Had-better/would-rather-and-had-better.html"
+                  >Would rather and Had better</a
+                >
+              </li>
+              <li>Advanced Phrasal Verbs</li>
+            </ul>
+          </div>
+          <div class="dropdown" id="C1">
+            <h3>C1 Grammar Topics</h3>
+            <ul>
+              <li>Subjunctive Mood</li>
+              <li>Advanced Conditionals</li>
+              <li>Formal Writing</li>
+            </ul>
+          </div>
+          <!-- Other Topics -->
+          <div class="dropdown" id="other">
+            <h3>Other Grammar Topics</h3>
+            <ul>
+              <li>
+                <a
+                  href="/articles/Interactive-table/interactive-table.html"
+                  target="_self"
+                  >Інтерактивна таблиця</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mind Maps -->
+      <section id="mind-maps">
+        <h2>Mind Maps</h2>
+        <p>Mind mapping tool coming soon...</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Enigma</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
