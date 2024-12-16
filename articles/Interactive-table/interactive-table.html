@@ -1,405 +1,655 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic Table</title>
-    <link rel="stylesheet" href="/articles/Interactive-table/interactive-table.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="articles/Interactive-table/interactive-table.css"
+    />
+  </head>
+  <body>
     <!-- Button Home -->
-    <a href="/index.html" class="home-button">Home</a>
+    <a href="index.html" class="home-button">Home</a>
 
     <!-- Nav Tabs -->
     <div class="tab-container">
-        <button class="tab active" data-target="examples">Приклади</button>
-        <button class="tab" data-target="schemes">Схеми</button>
-        <button class="tab" data-target="passive-voice">Схеми (Passive Voice)</button>
-        <button class="tab" data-target="usage">Вживання</button>
-        <button class="tab" data-target="time-markers">Часові маркери</button>
+      <button class="tab active" data-target="examples">Приклади</button>
+      <button class="tab" data-target="schemes">Схеми</button>
+      <button class="tab" data-target="passive-voice">
+        Схеми (Passive Voice)
+      </button>
+      <button class="tab" data-target="usage">Вживання</button>
+      <button class="tab" data-target="time-markers">Часові маркери</button>
     </div>
     <!-- Examples -->
     <div id="examples" class="content active">
-    <div class="table-container">
+      <div class="table-container">
         <!-- Simple Tenses -->
         <div class="table-section">
-            <h3>Past Simple</h3>
-            <p><span class="highlight">He finished</span> his homework <u>two days ago</u>. Він закінчив домашнє завдання два дні тому.</p>
-            <p><span class="highlight">She didn’t call</span> her friend <u>last evening</u>. Вона не подзвонила своєму другу вчора ввечері.</p>
-            <p><span class="highlight">Did they play</span> football <u>last Saturday</u>? Вони грали у футбол минулої суботи?</p>
-            <p><span class="highlight">I was</span> in the park <u>at noon yesterday</u>. Я був у парку вчора опівдні.</p>
-            <p>The museum <span class="highlight">wasn’t</span> open <u>on Sunday</u>. Музей не був відкритий у неділю.</p>
-            <p><span class="highlight">Were</span> you tired <u>after the trip</u>? Ви були втомлені після поїздки?</p>
+          <h3>Past Simple</h3>
+          <p>
+            <span class="highlight">He finished</span> his homework
+            <u>two days ago</u>. Він закінчив домашнє завдання два дні тому.
+          </p>
+          <p>
+            <span class="highlight">She didn’t call</span> her friend
+            <u>last evening</u>. Вона не подзвонила своєму другу вчора ввечері.
+          </p>
+          <p>
+            <span class="highlight">Did they play</span> football
+            <u>last Saturday</u>? Вони грали у футбол минулої суботи?
+          </p>
+          <p>
+            <span class="highlight">I was</span> in the park
+            <u>at noon yesterday</u>. Я був у парку вчора опівдні.
+          </p>
+          <p>
+            The museum <span class="highlight">wasn’t</span> open
+            <u>on Sunday</u>. Музей не був відкритий у неділю.
+          </p>
+          <p>
+            <span class="highlight">Were</span> you tired <u>after the trip</u>?
+            Ви були втомлені після поїздки?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Present Simple</h3>
-            <p><span class="highlight">She visits</span> her grandmother <u>every Sunday</u>. Вона відвідує свою бабусю кожної неділі.</p>
-            <p>He <span class="highlight">doesn’t eat</span> breakfast <u>in the morning</u>. Він не снідає вранці.</p>
-            <p><span class="highlight">Do they play</span> tennis in the park <u>every weekend</u>? Вони грають у теніс у парку кожного вихідного?</p>
-            <p><span class="highlight">I am</span> always busy <u>on weekdays</u>. Я завжди зайнятий у будні.</p>
-            <p>The sky <span class="highlight">isn’t</span> clear <u>today</u>*. Небо сьогодні не ясне.</p>
-            <p><span class="highlight">Are</span> they at school <u>right now</u>*? Вони зараз у школі?</p>
+          <h3>Present Simple</h3>
+          <p>
+            <span class="highlight">She visits</span> her grandmother
+            <u>every Sunday</u>. Вона відвідує свою бабусю кожної неділі.
+          </p>
+          <p>
+            He <span class="highlight">doesn’t eat</span> breakfast
+            <u>in the morning</u>. Він не снідає вранці.
+          </p>
+          <p>
+            <span class="highlight">Do they play</span> tennis in the park
+            <u>every weekend</u>? Вони грають у теніс у парку кожного вихідного?
+          </p>
+          <p>
+            <span class="highlight">I am</span> always busy <u>on weekdays</u>.
+            Я завжди зайнятий у будні.
+          </p>
+          <p>
+            The sky <span class="highlight">isn’t</span> clear <u>today</u>*.
+            Небо сьогодні не ясне.
+          </p>
+          <p>
+            <span class="highlight">Are</span> they at school <u>right now</u>*?
+            Вони зараз у школі?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Future Simple</h3>
-            <p><span class="highlight">She will attend</span> the meeting <u>tomorrow at 10 AM</u>. Вона буде на зустрічі завтра о 10 ранку.</p>
-            <p>He <span class="highlight">won’t travel</span> abroad <u>next summer</u>. Він не поїде за кордон наступного літа.</p>
-            <p><span class="highlight">Will they join</span> us <u>for dinner tonight</u>? Вони приєднаються до нас на вечерю сьогодні ввечері?</p>
+          <h3>Future Simple</h3>
+          <p>
+            <span class="highlight">She will attend</span> the meeting
+            <u>tomorrow at 10 AM</u>. Вона буде на зустрічі завтра о 10 ранку.
+          </p>
+          <p>
+            He <span class="highlight">won’t travel</span> abroad
+            <u>next summer</u>. Він не поїде за кордон наступного літа.
+          </p>
+          <p>
+            <span class="highlight">Will they join</span> us
+            <u>for dinner tonight</u>? Вони приєднаються до нас на вечерю
+            сьогодні ввечері?
+          </p>
         </div>
 
         <!-- Continuous Tenses -->
         <div class="table-section">
-            <h3>Past Continuous</h3>
-            <p><span class="highlight">She was reading</span> a book <u>at 5 PM yesterday</u>. Вона читала книгу вчора о 5 вечора.</p>
-            <p>He <span class="highlight">wasn’t driving</span> home <u>while</u> it was raining. Він не їхав додому, поки йшов дощ.</p>
-            <p><span class="highlight">Were</span> they cooking dinner <u>when</u> the phone rang? Вони готували вечерю, коли задзвонив телефон?</p>
+          <h3>Past Continuous</h3>
+          <p>
+            <span class="highlight">She was reading</span> a book
+            <u>at 5 PM yesterday</u>. Вона читала книгу вчора о 5 вечора.
+          </p>
+          <p>
+            He <span class="highlight">wasn’t driving</span> home
+            <u>while</u> it was raining. Він не їхав додому, поки йшов дощ.
+          </p>
+          <p>
+            <span class="highlight">Were</span> they cooking dinner
+            <u>when</u> the phone rang? Вони готували вечерю, коли задзвонив
+            телефон?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Present Continuous</h3>
-            <p><span class="highlight">She is writing</span> an email <u>at the moment</u>. Вона пише електронного листа зараз.</p>
-            <p>He <span class="highlight">isn’t watching</span> TV <u>right now</u>. Він не дивиться телевізор зараз.</p>
-            <p><span class="highlight">Are</span> you preparing dinner <u>for the guests</u>? Ви готуєте вечерю для гостей?</p>
+          <h3>Present Continuous</h3>
+          <p>
+            <span class="highlight">She is writing</span> an email
+            <u>at the moment</u>. Вона пише електронного листа зараз.
+          </p>
+          <p>
+            He <span class="highlight">isn’t watching</span> TV
+            <u>right now</u>. Він не дивиться телевізор зараз.
+          </p>
+          <p>
+            <span class="highlight">Are</span> you preparing dinner
+            <u>for the guests</u>? Ви готуєте вечерю для гостей?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Future Continuous</h3>
-            <p><span class="highlight">He will be working</span> in the office <u>at 3 PM tomorrow</u>. Він працюватиме в офісі завтра о 3 годині.</p>
-            <p>She <span class="highlight">won’t be studying</span> <u>when you arrive</u>. Вона не буде вчитися, коли ти приїдеш.</p>
-            <p><span class="highlight">Will they be waiting</span> for us <u>at the station</u>? Вони чекатимуть на нас на станції?</p>
+          <h3>Future Continuous</h3>
+          <p>
+            <span class="highlight">He will be working</span> in the office
+            <u>at 3 PM tomorrow</u>. Він працюватиме в офісі завтра о 3 годині.
+          </p>
+          <p>
+            She <span class="highlight">won’t be studying</span>
+            <u>when you arrive</u>. Вона не буде вчитися, коли ти приїдеш.
+          </p>
+          <p>
+            <span class="highlight">Will they be waiting</span> for us
+            <u>at the station</u>? Вони чекатимуть на нас на станції?
+          </p>
         </div>
 
         <!-- Perfect Tenses -->
         <div class="table-section">
-            <h3>Past Perfect</h3>
-            <p>By the time we arrived, the train <span class="highlight">had already left</span>. До того часу, як ми прибули, потяг вже поїхав.</p>
-            <p>He <span class="highlight">hadn’t finished</span> the project <u>before the deadline</u>. Він не закінчив проєкт до дедлайну.</p>
-            <p><span class="highlight">Had she ever been</span> to London <u>before her last trip</u>? Вона колись була в Лондоні до своєї останньої подорожі?</p>
+          <h3>Past Perfect</h3>
+          <p>
+            By the time we arrived, the train
+            <span class="highlight">had already left</span>. До того часу, як ми
+            прибули, потяг вже поїхав.
+          </p>
+          <p>
+            He <span class="highlight">hadn’t finished</span> the project
+            <u>before the deadline</u>. Він не закінчив проєкт до дедлайну.
+          </p>
+          <p>
+            <span class="highlight">Had she ever been</span> to London
+            <u>before her last trip</u>? Вона колись була в Лондоні до своєї
+            останньої подорожі?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Present Perfect</h3>
-            <p><span class="highlight">She has already finished</span> her homework. Вона вже закінчила домашнє завдання.</p>
-            <p>They <span class="highlight">haven’t visited</span> their grandparents <u>this month</u>. Вони не відвідали своїх дідусів та бабусь цього місяця.</p>
-            <p><span class="highlight">Have you ever tried</span> sushi? Ти коли-небудь пробував суші?</p>
+          <h3>Present Perfect</h3>
+          <p>
+            <span class="highlight">She has already finished</span> her
+            homework. Вона вже закінчила домашнє завдання.
+          </p>
+          <p>
+            They <span class="highlight">haven’t visited</span> their
+            grandparents <u>this month</u>. Вони не відвідали своїх дідусів та
+            бабусь цього місяця.
+          </p>
+          <p>
+            <span class="highlight">Have you ever tried</span> sushi? Ти
+            коли-небудь пробував суші?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Future Perfect</h3>
-            <p><span class="highlight">She will have completed</span> her course <u>by next month</u>. Вона завершить свій курс до наступного місяця.</p>
-            <p>They <span class="highlight">won’t have reached</span> the hotel <u>by 8 PM</u>. Вони не дістануться до готелю до 8 години вечора.</p>
-            <p><span class="highlight">Will you have written</span> the report <u>by the deadline</u>? Ви напишете звіт до дедлайну?</p>
+          <h3>Future Perfect</h3>
+          <p>
+            <span class="highlight">She will have completed</span> her course
+            <u>by next month</u>. Вона завершить свій курс до наступного місяця.
+          </p>
+          <p>
+            They <span class="highlight">won’t have reached</span> the hotel
+            <u>by 8 PM</u>. Вони не дістануться до готелю до 8 години вечора.
+          </p>
+          <p>
+            <span class="highlight">Will you have written</span> the report
+            <u>by the deadline</u>? Ви напишете звіт до дедлайну?
+          </p>
         </div>
 
         <!-- Perfect Continuous Tenses -->
         <div class="table-section">
-            <h3>Past Perfect Continuous</h3>
-            <p><span class="highlight">She had been running</span> <u>for an hour</u> <u>before the rain started</u>. Вона бігала годину, перш ніж почався дощ.</p>
-            <p>We <span class="highlight">hadn’t been practicing</span> much <u>before the competition</u>. Ми мало тренувалися перед змаганнями.</p>
-            <p><span class="highlight">Had they been living</span> in the city <u>for a long time</u> <u>before they moved</u>? Вони довго жили в місті перед тим, як переїхали?</p>
+          <h3>Past Perfect Continuous</h3>
+          <p>
+            <span class="highlight">She had been running</span>
+            <u>for an hour</u> <u>before the rain started</u>. Вона бігала
+            годину, перш ніж почався дощ.
+          </p>
+          <p>
+            We <span class="highlight">hadn’t been practicing</span> much
+            <u>before the competition</u>. Ми мало тренувалися перед змаганнями.
+          </p>
+          <p>
+            <span class="highlight">Had they been living</span> in the city
+            <u>for a long time</u> <u>before they moved</u>? Вони довго жили в
+            місті перед тим, як переїхали?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Present Perfect Continuous</h3>
-            <p><span class="highlight">He has been studying</span> <u>for three hours</u>. Він навчається три години.</p>
-            <p>They <span class="highlight">haven’t been working</span> on the project <u>since Monday</u>. Вони не працюють над проєктом з понеділка.</p>
-            <p><span class="highlight">How long have you been waiting</span> <u>here</u>? Скільки часу ти тут чекаєш?</p>
+          <h3>Present Perfect Continuous</h3>
+          <p>
+            <span class="highlight">He has been studying</span>
+            <u>for three hours</u>. Він навчається три години.
+          </p>
+          <p>
+            They <span class="highlight">haven’t been working</span> on the
+            project <u>since Monday</u>. Вони не працюють над проєктом з
+            понеділка.
+          </p>
+          <p>
+            <span class="highlight">How long have you been waiting</span>
+            <u>here</u>? Скільки часу ти тут чекаєш?
+          </p>
         </div>
         <div class="table-section">
-            <h3>Future Perfect Continuous</h3>
-            <p><span class="highlight">By next year, he will have been working</span> here <u>for ten years</u>. До наступного року він працюватиме тут десять років.</p>
-            <p>She <span class="highlight">won’t have been living</span> in this city <u>for long</u> <u>by then</u>. Вона не проживе в цьому місті довго до того часу.</p>
-            <p><span class="highlight">Will they have been practicing</span> enough <u>before the competition</u>? Вони достатньо потренуються перед змаганням?</p>
+          <h3>Future Perfect Continuous</h3>
+          <p>
+            <span class="highlight"
+              >By next year, he will have been working</span
+            >
+            here <u>for ten years</u>. До наступного року він працюватиме тут
+            десять років.
+          </p>
+          <p>
+            She <span class="highlight">won’t have been living</span> in this
+            city <u>for long</u> <u>by then</u>. Вона не проживе в цьому місті
+            довго до того часу.
+          </p>
+          <p>
+            <span class="highlight">Will they have been practicing</span> enough
+            <u>before the competition</u>? Вони достатньо потренуються перед
+            змаганням?
+          </p>
         </div>
+      </div>
     </div>
-    </div>
-
 
     <!-- Schemes -->
     <div id="schemes" class="content">
-        <div class="table-container">
-            <!-- Simple Tenses -->
-            <div class="table-section">
-                <h3>Past Simple</h3>
-                <p><strong>Regular Verbs:</strong></p>
-                <p>👤 + <span class="highlight">Ved</span> + ...</p>
-                <p>👤 + <span class="highlight">didn't</span> + V + ...</p>
-                <p><span class="highlight">Did</span> + 👤 + V + ...?</p>
-                <p><strong>'To Be' Form:</strong></p>
-                <p>👤 + <span class="highlight">was/were</span> + ...</p>
-                <p>👤 + <span class="highlight">wasn't/weren't</span> + ...</p>
-                <p><span class="highlight">Was/Were</span> + 👤 + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Simple</h3>
-                <p><strong>Regular Verbs:</strong></p>
-                <p>👤 + <span class="highlight">Vs</span> + ...</p>
-                <p>👤 + <span class="highlight">don't/doesn't</span> + V + ...</p>
-                <p><span class="highlight">Do/Does</span> + 👤 + V + ...?</p>
-                <p><strong>'To Be' Form:</strong></p>
-                <p>👤 + <span class="highlight">am/is/are</span> + ...</p>
-                <p>👤 + <span class="highlight">am not/isn't/aren't</span> + ...</p>
-                <p><span class="highlight">Am/Is/Are</span> + 👤 + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Simple</h3>
-                <p>👤 + <span class="highlight">will</span> + V + ...</p>
-                <p>👤 + <span class="highlight">won't</span> + V + ...</p>
-                <p><span class="highlight">Will</span> + 👤 + V + ...?</p>
-            </div>
-    
-            <!-- Continuous Tenses -->
-            <div class="table-section">
-                <h3>Past Continuous</h3>
-                <p>👤 + <span class="highlight">was/were</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">wasn't/weren't</span> + V-ing + ...</p>
-                <p><span class="highlight">Was/Were</span> + 👤 + V-ing + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Continuous</h3>
-                <p>👤 + <span class="highlight">am/is/are</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">am not/isn't/aren't</span> + V-ing + ...</p>
-                <p><span class="highlight">Am/Is/Are</span> + 👤 + V-ing + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Continuous</h3>
-                <p>👤 + <span class="highlight">will be</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">won't be</span> + V-ing + ...</p>
-                <p><span class="highlight">Will</span> + 👤 + be + V-ing + ...?</p>
-            </div>
-    
-            <!-- Perfect Tenses -->
-            <div class="table-section">
-                <h3>Past Perfect</h3>
-                <p>👤 + <span class="highlight">had</span> + V3 + ...</p>
-                <p>👤 + <span class="highlight">hadn't</span> + V3 + ...</p>
-                <p><span class="highlight">Had</span> + 👤 + V3 + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect</h3>
-                <p>👤 + <span class="highlight">has/have</span> + V3 + ...</p>
-                <p>👤 + <span class="highlight">hasn't/haven't</span> + V3 + ...</p>
-                <p><span class="highlight">Has/Have</span> + 👤 + V3 + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect</h3>
-                <p>👤 + <span class="highlight">will have</span> + V3 + ...</p>
-                <p>👤 + <span class="highlight">won't have</span> + V3 + ...</p>
-                <p><span class="highlight">Will</span> + 👤 + have + V3 + ...?</p>
-            </div>
-    
-            <!-- Perfect Continuous Tenses -->
-            <div class="table-section">
-                <h3>Past Perfect Continuous</h3>
-                <p>👤 + <span class="highlight">had been</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">hadn't been</span> + V-ing + ...</p>
-                <p><span class="highlight">Had</span> + 👤 + been + V-ing + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect Continuous</h3>
-                <p>👤 + <span class="highlight">has/have been</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">hasn't/haven't been</span> + V-ing + ...</p>
-                <p><span class="highlight">Has/Have</span> + 👤 + been + V-ing + ...?</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect Continuous</h3>
-                <p>👤 + <span class="highlight">will have been</span> + V-ing + ...</p>
-                <p>👤 + <span class="highlight">won't have been</span> + V-ing + ...</p>
-                <p><span class="highlight">Will</span> + 👤 + have been + V-ing + ...?</p>
-            </div>
+      <div class="table-container">
+        <!-- Simple Tenses -->
+        <div class="table-section">
+          <h3>Past Simple</h3>
+          <p><strong>Regular Verbs:</strong></p>
+          <p>👤 + <span class="highlight">Ved</span> + ...</p>
+          <p>👤 + <span class="highlight">didn't</span> + V + ...</p>
+          <p><span class="highlight">Did</span> + 👤 + V + ...?</p>
+          <p><strong>'To Be' Form:</strong></p>
+          <p>👤 + <span class="highlight">was/were</span> + ...</p>
+          <p>👤 + <span class="highlight">wasn't/weren't</span> + ...</p>
+          <p><span class="highlight">Was/Were</span> + 👤 + ...?</p>
         </div>
-    </div>
-    
-     <!-- Passive voice -->
-     <div id="passive-voice" class="content">
-        <div class="table-container">
-            <!-- Past Simple -->
-            <div class="table-section">
-                <h3>Past Simple Passive</h3>
-                <p>👤 + <span class="highlight2">was/were + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">wasn't/weren't + V3</span> + ...</p>
-                <p><span class="highlight2">Was/Were</span> + 👤 + <span class="highlight2">V3</span> + ...?</p>
-            </div>
-            
-            <!-- Present Simple -->
-            <div class="table-section">
-                <h3>Present Simple Passive</h3>
-                <p>👤 + <span class="highlight2">is/am/are + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">isn't/aren't + V3</span> + ...</p>
-                <p><span class="highlight2">Is/Am/Are</span> + 👤 + <span class="highlight2">V3</span> + ...?</p>
-            </div>
-    
-            <!-- Future Simple -->
-            <div class="table-section">
-                <h3>Future Simple Passive</h3>
-                <p>👤 + <span class="highlight2">will be + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">won't be + V3</span> + ...</p>
-                <p><span class="highlight2">Will</span> + 👤 + <span class="highlight2">be + V3</span> + ...?</p>
-            </div>
-    
-            <!-- Past Continuous -->
-            <div class="table-section">
-                <h3>Past Continuous Passive</h3>
-                <p>👤 + <span class="highlight2">was/were being + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">wasn't/weren't being + V3</span> + ...</p>
-                <p><span class="highlight2">Was/Were</span> + 👤 + <span class="highlight2">being + V3</span> + ...?</p>
-            </div>
-    
-            <!-- Present Continuous -->
-            <div class="table-section">
-                <h3>Present Continuous Passive</h3>
-                <p>👤 + <span class="highlight2">is/am/are being + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">isn't/aren't being + V3</span> + ...</p>
-                <p><span class="highlight2">Is/Am/Are</span> + 👤 + <span class="highlight2">being + V3</span> + ...?</p>
-            </div>
-    
-            <!-- Future Continuous -->
-            <div class="table-section">
-                <h3>Future Continuous Passive</h3>
-                <p><em>(Not commonly used in English)</em></p>
-            </div>
-    
-            <!-- Past Perfect -->
-            <div class="table-section">
-                <h3>Past Perfect Passive</h3>
-                <p>👤 + <span class="highlight2">had been + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">hadn't been + V3</span> + ...</p>
-                <p><span class="highlight2">Had</span> + 👤 + <span class="highlight2">been + V3</span> + ...?</p>
-            </div>
-    
-            <!-- Present Perfect -->
-            <div class="table-section">
-                <h3>Present Perfect Passive</h3>
-                <p>👤 + <span class="highlight2">has/have been + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">hasn't/haven't been + V3</span> + ...</p>
-                <p><span class="highlight2">Has/Have</span> + 👤 + <span class="highlight2">been + V3</span> + ...?</p>
-            </div>
-    
-            <!-- Future Perfect -->
-            <div class="table-section">
-                <h3>Future Perfect Passive</h3>
-                <p>👤 + <span class="highlight2">will have been + V3</span> + ...</p>
-                <p>👤 + <span class="highlight2">won't have been + V3</span> + ...</p>
-                <p><span class="highlight2">Will</span> + 👤 + <span class="highlight2">have been + V3</span> + ...?</p>
-            </div>
+        <div class="table-section">
+          <h3>Present Simple</h3>
+          <p><strong>Regular Verbs:</strong></p>
+          <p>👤 + <span class="highlight">Vs</span> + ...</p>
+          <p>👤 + <span class="highlight">don't/doesn't</span> + V + ...</p>
+          <p><span class="highlight">Do/Does</span> + 👤 + V + ...?</p>
+          <p><strong>'To Be' Form:</strong></p>
+          <p>👤 + <span class="highlight">am/is/are</span> + ...</p>
+          <p>👤 + <span class="highlight">am not/isn't/aren't</span> + ...</p>
+          <p><span class="highlight">Am/Is/Are</span> + 👤 + ...?</p>
         </div>
+        <div class="table-section">
+          <h3>Future Simple</h3>
+          <p>👤 + <span class="highlight">will</span> + V + ...</p>
+          <p>👤 + <span class="highlight">won't</span> + V + ...</p>
+          <p><span class="highlight">Will</span> + 👤 + V + ...?</p>
+        </div>
+
+        <!-- Continuous Tenses -->
+        <div class="table-section">
+          <h3>Past Continuous</h3>
+          <p>👤 + <span class="highlight">was/were</span> + V-ing + ...</p>
+          <p>
+            👤 + <span class="highlight">wasn't/weren't</span> + V-ing + ...
+          </p>
+          <p><span class="highlight">Was/Were</span> + 👤 + V-ing + ...?</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Continuous</h3>
+          <p>👤 + <span class="highlight">am/is/are</span> + V-ing + ...</p>
+          <p>
+            👤 + <span class="highlight">am not/isn't/aren't</span> + V-ing +
+            ...
+          </p>
+          <p><span class="highlight">Am/Is/Are</span> + 👤 + V-ing + ...?</p>
+        </div>
+        <div class="table-section">
+          <h3>Future Continuous</h3>
+          <p>👤 + <span class="highlight">will be</span> + V-ing + ...</p>
+          <p>👤 + <span class="highlight">won't be</span> + V-ing + ...</p>
+          <p><span class="highlight">Will</span> + 👤 + be + V-ing + ...?</p>
+        </div>
+
+        <!-- Perfect Tenses -->
+        <div class="table-section">
+          <h3>Past Perfect</h3>
+          <p>👤 + <span class="highlight">had</span> + V3 + ...</p>
+          <p>👤 + <span class="highlight">hadn't</span> + V3 + ...</p>
+          <p><span class="highlight">Had</span> + 👤 + V3 + ...?</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect</h3>
+          <p>👤 + <span class="highlight">has/have</span> + V3 + ...</p>
+          <p>👤 + <span class="highlight">hasn't/haven't</span> + V3 + ...</p>
+          <p><span class="highlight">Has/Have</span> + 👤 + V3 + ...?</p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect</h3>
+          <p>👤 + <span class="highlight">will have</span> + V3 + ...</p>
+          <p>👤 + <span class="highlight">won't have</span> + V3 + ...</p>
+          <p><span class="highlight">Will</span> + 👤 + have + V3 + ...?</p>
+        </div>
+
+        <!-- Perfect Continuous Tenses -->
+        <div class="table-section">
+          <h3>Past Perfect Continuous</h3>
+          <p>👤 + <span class="highlight">had been</span> + V-ing + ...</p>
+          <p>👤 + <span class="highlight">hadn't been</span> + V-ing + ...</p>
+          <p><span class="highlight">Had</span> + 👤 + been + V-ing + ...?</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect Continuous</h3>
+          <p>👤 + <span class="highlight">has/have been</span> + V-ing + ...</p>
+          <p>
+            👤 + <span class="highlight">hasn't/haven't been</span> + V-ing +
+            ...
+          </p>
+          <p>
+            <span class="highlight">Has/Have</span> + 👤 + been + V-ing + ...?
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect Continuous</h3>
+          <p>
+            👤 + <span class="highlight">will have been</span> + V-ing + ...
+          </p>
+          <p>
+            👤 + <span class="highlight">won't have been</span> + V-ing + ...
+          </p>
+          <p>
+            <span class="highlight">Will</span> + 👤 + have been + V-ing + ...?
+          </p>
+        </div>
+      </div>
     </div>
-    
+
+    <!-- Passive voice -->
+    <div id="passive-voice" class="content">
+      <div class="table-container">
+        <!-- Past Simple -->
+        <div class="table-section">
+          <h3>Past Simple Passive</h3>
+          <p>👤 + <span class="highlight2">was/were + V3</span> + ...</p>
+          <p>👤 + <span class="highlight2">wasn't/weren't + V3</span> + ...</p>
+          <p>
+            <span class="highlight2">Was/Were</span> + 👤 +
+            <span class="highlight2">V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Present Simple -->
+        <div class="table-section">
+          <h3>Present Simple Passive</h3>
+          <p>👤 + <span class="highlight2">is/am/are + V3</span> + ...</p>
+          <p>👤 + <span class="highlight2">isn't/aren't + V3</span> + ...</p>
+          <p>
+            <span class="highlight2">Is/Am/Are</span> + 👤 +
+            <span class="highlight2">V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Future Simple -->
+        <div class="table-section">
+          <h3>Future Simple Passive</h3>
+          <p>👤 + <span class="highlight2">will be + V3</span> + ...</p>
+          <p>👤 + <span class="highlight2">won't be + V3</span> + ...</p>
+          <p>
+            <span class="highlight2">Will</span> + 👤 +
+            <span class="highlight2">be + V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Past Continuous -->
+        <div class="table-section">
+          <h3>Past Continuous Passive</h3>
+          <p>👤 + <span class="highlight2">was/were being + V3</span> + ...</p>
+          <p>
+            👤 + <span class="highlight2">wasn't/weren't being + V3</span> + ...
+          </p>
+          <p>
+            <span class="highlight2">Was/Were</span> + 👤 +
+            <span class="highlight2">being + V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Present Continuous -->
+        <div class="table-section">
+          <h3>Present Continuous Passive</h3>
+          <p>👤 + <span class="highlight2">is/am/are being + V3</span> + ...</p>
+          <p>
+            👤 + <span class="highlight2">isn't/aren't being + V3</span> + ...
+          </p>
+          <p>
+            <span class="highlight2">Is/Am/Are</span> + 👤 +
+            <span class="highlight2">being + V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Future Continuous -->
+        <div class="table-section">
+          <h3>Future Continuous Passive</h3>
+          <p><em>(Not commonly used in English)</em></p>
+        </div>
+
+        <!-- Past Perfect -->
+        <div class="table-section">
+          <h3>Past Perfect Passive</h3>
+          <p>👤 + <span class="highlight2">had been + V3</span> + ...</p>
+          <p>👤 + <span class="highlight2">hadn't been + V3</span> + ...</p>
+          <p>
+            <span class="highlight2">Had</span> + 👤 +
+            <span class="highlight2">been + V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Present Perfect -->
+        <div class="table-section">
+          <h3>Present Perfect Passive</h3>
+          <p>👤 + <span class="highlight2">has/have been + V3</span> + ...</p>
+          <p>
+            👤 + <span class="highlight2">hasn't/haven't been + V3</span> + ...
+          </p>
+          <p>
+            <span class="highlight2">Has/Have</span> + 👤 +
+            <span class="highlight2">been + V3</span> + ...?
+          </p>
+        </div>
+
+        <!-- Future Perfect -->
+        <div class="table-section">
+          <h3>Future Perfect Passive</h3>
+          <p>👤 + <span class="highlight2">will have been + V3</span> + ...</p>
+          <p>👤 + <span class="highlight2">won't have been + V3</span> + ...</p>
+          <p>
+            <span class="highlight2">Will</span> + 👤 +
+            <span class="highlight2">have been + V3</span> + ...?
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- Usage -->
     <div id="usage" class="content">
-        <div class="table-container">
-            <!-- Simple Tenses -->
-            <div class="table-section">
-                <h3>Past Simple</h3>
-                <p>Дії, які відбулися один раз або регулярно в минулому.</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Simple</h3>
-                <p>Дії, які відбуваються регулярно або є універсальною істиною.</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Simple</h3>
-                <p>Дії, які відбудуться в майбутньому.</p>
-            </div>
-    
-            <!-- Continuous Tenses -->
-            <div class="table-section">
-                <h3>Past Continuous</h3>
-                <p>Дії, які тривали в певний момент у минулому.</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Continuous</h3>
-                <p>Дії, які тривають зараз.</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Continuous</h3>
-                <p>Дії, які будуть тривати у визначений момент у майбутньому.</p>
-            </div>
-    
-            <!-- Perfect Tenses -->
-            <div class="table-section">
-                <h3>Past Perfect</h3>
-                <p>Дії, які були завершені до іншої дії в минулому.</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect</h3>
-                <p>Дії, які завершені в невизначений час або мають значення для теперішнього.</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect</h3>
-                <p>Дії, які будуть завершені до певного моменту в майбутньому.</p>
-            </div>
-    
-            <!-- Perfect Continuous Tenses -->
-            <div class="table-section">
-                <h3>Past Perfect Continuous</h3>
-                <p>Дії, які тривали перед іншою дією в минулому.</p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect Continuous</h3>
-                <p>Дії, які почалися в минулому та тривають до теперішнього.</p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect Continuous</h3>
-                <p>Дії, які триватимуть до визначеного моменту в майбутньому.</p>
-            </div>
+      <div class="table-container">
+        <!-- Simple Tenses -->
+        <div class="table-section">
+          <h3>Past Simple</h3>
+          <p>Дії, які відбулися один раз або регулярно в минулому.</p>
         </div>
+        <div class="table-section">
+          <h3>Present Simple</h3>
+          <p>Дії, які відбуваються регулярно або є універсальною істиною.</p>
+        </div>
+        <div class="table-section">
+          <h3>Future Simple</h3>
+          <p>Дії, які відбудуться в майбутньому.</p>
+        </div>
+
+        <!-- Continuous Tenses -->
+        <div class="table-section">
+          <h3>Past Continuous</h3>
+          <p>Дії, які тривали в певний момент у минулому.</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Continuous</h3>
+          <p>Дії, які тривають зараз.</p>
+        </div>
+        <div class="table-section">
+          <h3>Future Continuous</h3>
+          <p>Дії, які будуть тривати у визначений момент у майбутньому.</p>
+        </div>
+
+        <!-- Perfect Tenses -->
+        <div class="table-section">
+          <h3>Past Perfect</h3>
+          <p>Дії, які були завершені до іншої дії в минулому.</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect</h3>
+          <p>
+            Дії, які завершені в невизначений час або мають значення для
+            теперішнього.
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect</h3>
+          <p>Дії, які будуть завершені до певного моменту в майбутньому.</p>
+        </div>
+
+        <!-- Perfect Continuous Tenses -->
+        <div class="table-section">
+          <h3>Past Perfect Continuous</h3>
+          <p>Дії, які тривали перед іншою дією в минулому.</p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect Continuous</h3>
+          <p>Дії, які почалися в минулому та тривають до теперішнього.</p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect Continuous</h3>
+          <p>Дії, які триватимуть до визначеного моменту в майбутньому.</p>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Time markers -->
     <div id="time-markers" class="content">
-        <div class="table-container">
-            <div class="table-section">
-                <h3>Past Simple</h3>
-                <p><span class="highlight2">Yesterday</span>, <span class="highlight2">last week</span>, <span class="highlight2">a month ago</span>, <span class="highlight2">in 1995</span>, <span class="highlight2">two days ago</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Present Simple</h3>
-                <p><span class="highlight2">Every day</span>, <span class="highlight2">always</span>, <span class="highlight2">usually</span>, <span class="highlight2">sometimes</span>, <span class="highlight2">rarely</span>, <span class="highlight2">never</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Future Simple</h3>
-                <p><span class="highlight2">Tomorrow</span>, <span class="highlight2">next week</span>, <span class="highlight2">in a year</span>, <span class="highlight2">soon</span>, <span class="highlight2">someday</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Past Continuous</h3>
-                <p><span class="highlight2">While</span>, <span class="highlight2">at that moment</span>, <span class="highlight2">all day yesterday</span>, <span class="highlight2">from 3 PM to 4 PM</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Present Continuous</h3>
-                <p><span class="highlight2">Right now</span>, <span class="highlight2">currently</span>, <span class="highlight2">at the moment</span>, <span class="highlight2">this week</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Future Continuous</h3>
-                <p><span class="highlight2">This time tomorrow</span>, <span class="highlight2">in two hours</span>, <span class="highlight2">at 5 PM tomorrow</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Past Perfect</h3>
-                <p><span class="highlight2">Before</span>, <span class="highlight2">by the time</span>, <span class="highlight2">already</span>, <span class="highlight2">until then</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect</h3>
-                <p><span class="highlight2">Already</span>, <span class="highlight2">yet</span>, <span class="highlight2">so far</span>, <span class="highlight2">since</span>, <span class="highlight2">for</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect</h3>
-                <p><span class="highlight2">By tomorrow</span>, <span class="highlight2">by next week</span>, <span class="highlight2">in five years</span>, <span class="highlight2">by the time</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Past Perfect Continuous</h3>
-                <p><span class="highlight2">For two hours</span>, <span class="highlight2">before</span>, <span class="highlight2">until then</span>, <span class="highlight2">since morning</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Present Perfect Continuous</h3>
-                <p><span class="highlight2">For two hours</span>, <span class="highlight2">since morning</span>, <span class="highlight2">all day</span>, <span class="highlight2">lately</span></p>
-            </div>
-            <div class="table-section">
-                <h3>Future Perfect Continuous</h3>
-                <p><span class="highlight2">For three hours</span>, <span class="highlight2">by the time</span>, <span class="highlight2">since morning</span></p>
-            </div>
+      <div class="table-container">
+        <div class="table-section">
+          <h3>Past Simple</h3>
+          <p>
+            <span class="highlight2">Yesterday</span>,
+            <span class="highlight2">last week</span>,
+            <span class="highlight2">a month ago</span>,
+            <span class="highlight2">in 1995</span>,
+            <span class="highlight2">two days ago</span>
+          </p>
         </div>
+        <div class="table-section">
+          <h3>Present Simple</h3>
+          <p>
+            <span class="highlight2">Every day</span>,
+            <span class="highlight2">always</span>,
+            <span class="highlight2">usually</span>,
+            <span class="highlight2">sometimes</span>,
+            <span class="highlight2">rarely</span>,
+            <span class="highlight2">never</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Simple</h3>
+          <p>
+            <span class="highlight2">Tomorrow</span>,
+            <span class="highlight2">next week</span>,
+            <span class="highlight2">in a year</span>,
+            <span class="highlight2">soon</span>,
+            <span class="highlight2">someday</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Past Continuous</h3>
+          <p>
+            <span class="highlight2">While</span>,
+            <span class="highlight2">at that moment</span>,
+            <span class="highlight2">all day yesterday</span>,
+            <span class="highlight2">from 3 PM to 4 PM</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Present Continuous</h3>
+          <p>
+            <span class="highlight2">Right now</span>,
+            <span class="highlight2">currently</span>,
+            <span class="highlight2">at the moment</span>,
+            <span class="highlight2">this week</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Continuous</h3>
+          <p>
+            <span class="highlight2">This time tomorrow</span>,
+            <span class="highlight2">in two hours</span>,
+            <span class="highlight2">at 5 PM tomorrow</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Past Perfect</h3>
+          <p>
+            <span class="highlight2">Before</span>,
+            <span class="highlight2">by the time</span>,
+            <span class="highlight2">already</span>,
+            <span class="highlight2">until then</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect</h3>
+          <p>
+            <span class="highlight2">Already</span>,
+            <span class="highlight2">yet</span>,
+            <span class="highlight2">so far</span>,
+            <span class="highlight2">since</span>,
+            <span class="highlight2">for</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect</h3>
+          <p>
+            <span class="highlight2">By tomorrow</span>,
+            <span class="highlight2">by next week</span>,
+            <span class="highlight2">in five years</span>,
+            <span class="highlight2">by the time</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Past Perfect Continuous</h3>
+          <p>
+            <span class="highlight2">For two hours</span>,
+            <span class="highlight2">before</span>,
+            <span class="highlight2">until then</span>,
+            <span class="highlight2">since morning</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Present Perfect Continuous</h3>
+          <p>
+            <span class="highlight2">For two hours</span>,
+            <span class="highlight2">since morning</span>,
+            <span class="highlight2">all day</span>,
+            <span class="highlight2">lately</span>
+          </p>
+        </div>
+        <div class="table-section">
+          <h3>Future Perfect Continuous</h3>
+          <p>
+            <span class="highlight2">For three hours</span>,
+            <span class="highlight2">by the time</span>,
+            <span class="highlight2">since morning</span>
+          </p>
+        </div>
+      </div>
     </div>
 
-   
-    
-    
-
-    <script src="/articles/Interactive-table/interactive-table.js"></script>
-</body>
+    <script src="articles/Interactive-table/interactive-table.js"></script>
+  </body>
 </html>
